@@ -3,8 +3,8 @@
 class Connect {
     private $host = 'localhost';
     private $dbname = 'app_tasks';
-    private $user = 'jg';
-    private $pass = 'password';
+    private $user = '';
+    private $pass = '';
 
     public function conectar() {
         try {
